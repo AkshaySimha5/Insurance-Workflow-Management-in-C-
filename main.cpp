@@ -2,7 +2,6 @@
 using namespace std;
 ofstream outfile("output.txt",ios::app);
 namespace Insurance {
-    //AKSHAY
     // Exception handling for negative premium
     class NegativePremiumException : public exception {
     public:
@@ -68,7 +67,6 @@ namespace Insurance {
     private:
         int policyTerm;
     };
-    //ADITYA
     class HouseInsurance : public Policy {
     public:
         HouseInsurance(int policyNumber, double premium, string propertyType)
@@ -194,7 +192,6 @@ string getValidType() {
     return type;
 }
 
-//MADHUSUDHAN, CHIDANAND
 int main() {
     using namespace Insurance;
     int choice;
